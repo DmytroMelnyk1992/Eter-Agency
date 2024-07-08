@@ -1,7 +1,139 @@
+html,
+body {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  font-family: "Open Sans", Helvetica, Arial, serif;
+  font-weight: 500;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  font-family: inherit; /* Використовувати той же шрифт, що й у батьківського елементу */
+  text-decoration: none; /* Прибирає підкреслення */
+}
+h2{
+    font-size: 20px;
+}
+p{
+    color: #0447C3;
+    line-height: 21px;
+    margin: 23px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+ul, ol {
+    margin: 0; /* Видаляє відступи з обох боків списку */
+    padding: 0; /* Видаляє внутрішні відступи */
+    list-style: none; /* Видаляє маркери списку */
+  }
+  
+  li {
+    margin: 0; 
+
+  }
+
+  header {
+    background-color: #0447C3;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.italic{
+    font-style: italic;
+}
+
+.accent-text-color{
+    color: #ffffff;
+}
+
 .container{
 background: #0447C3;
+}
+
+.container-grey{
+    background-color: #ECECEC;
+    margin:23px;
 }
 
 .main-logo{
     margin:  11px 144px 18px 144px;
 }
+
+.button-is-open{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.crop-container {
+    width: 430px;  /* Ширина контейнера */
+    height: 346px; /* Висота контейнера */
+    overflow: hidden; /* Приховуємо частину зображення, яка виходить за межі контейнера */
+    position: relative;
+    clip-path: inset(0); /* Обрізаємо зображення */
+  }
+
+  /* margin 23 px */
+  .hero-style{
+    margin-left: 23px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #0447C3;
+}
+.lined-heading {
+    position: relative; /* Для позиціонування псевдоелемента відносно заголовка */
+    margin-left: 23px; 
+    padding-left: 194px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 40px;
+    color: #0447C3;
+
+  }
+  
+  .lined-heading::before {
+    content: ""; /* Необхідно для відображення псевдоелемента */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); /* Вирівнювання по вертикалі */
+    width: 187px; /* Довжина лінії */
+    height: 3px; /* Товщина лінії */
+    background-color: #0447C3 /* Колір лінії */
+  }
+
+  .box{
+    padding:  23px;
+    background-color: #ECECEC;
+  }
+
+  .lined-style{
+    position: relative;
+  color: #0447C3; /* Колір тексту заголовка */
+  font-size: 24px; /* Розмір шрифту */
+  margin: 0;
+  padding-left: 150px;
+  text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .lined-style::before{
+    content: "";
+  position: absolute;
+  top: 50%; /* Вирівнюємо по вертикалі відносно тексту */
+  left: 0;
+  width: 139px; /* Довжина лінії */
+  height: 3px; /* Товщина лінії */
+  background-color: #0447C3; /* Колір лінії */
+  transform: translateY(-50%);
+  }

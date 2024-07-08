@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eter Agency</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -14,11 +18,10 @@
             <img class="main-logo" src="./images/logo.svg" alt="Eter Agency">
         </a>
     </header></div>
-    
-    <nav>
-        <button type="button">
+     <nav>
+        <button type="button" сlass="button-is-open">
             <svg width="30" height="30">
-                <use href="./images/burger-menu.svg"></use>
+                <use href="./images/hamburger-menu.svg"></use>
             </svg>
          </button>
         <ul>
@@ -32,17 +35,18 @@
 <main>
     <!-- hero section -->
      <section>
-       <h1>Комунікаційна Агенція Eter Agency</h1>
-    <h2 id="hero_section">Хто ми?</h2>
-<p>Eter Agency — комунікаційна агенція, яка не просто створює стратегії, а будує стосунки між брендами та їх аудиторією. Довірте нам свої історії та їдеї, а ми допоможемо їм бути почутими.</p> 
-<img src="./images/hero-image.png" alt="" width="430px">     
+       <h1 class="hero-style">Комунікаційна Агенція<br>Eter Agency</h1>
+    <h2 id="hero_section" class="lined-heading">Хто ми?</h2>
+<p>Eter Agency — <span class="italic">комунікаційна агенція</span>, яка не просто створює стратегії, а <span class="italic">будує стосунки</span> між брендами та їх аудиторією. Довірте нам свої історії та їдеї, а ми допоможемо їм бути почутими.</p> 
+<img src="./images/hero-image.png" class="crop-container" alt="" width="430">     
 </section>
    <!-- what we do section  -->
     <section>
-<h2 id="what_we_do_section">Що ми вміємо?</h2>
+<div class="box"><h2 id="what_we_do_section" class="lined-style">Що ми вміємо?</h2></div>
+
 <ul>
 <li>
-    <h3>Консультації брендів</h3>
+    <h3 class="box">Консультації брендів</h3>
 <p>Розмова, щоб зрозуміти як рухатись далі.
      Поради для просування бренду, план та ідеї для комунікаційних проявів. 
      Після консультації ви отримаєте індивідуальний 
@@ -89,22 +93,22 @@
     <!-- portfolio section -->
      <section><h2>кейси</h2>
 <p>*детальний опис кейсів шукайте в збережених <a href="">сторіз.</a></p>
-<img src="./images/logo_1.png" alt="rescue now" width="116px">
-<img src="./images/logo_2.png" alt="cp" width="69px">
-<img src="./images/logo_3.png" alt="jager music awards" width="110px">
-<img src="./images/logo_4.png" alt="embroidered gem" width="186px">
-<img src="./images/logo_5.png" alt="kyiv design week" width="71px">
-<img src="./images/logo_6.png" alt="i have no idea" width="101px">
-<img src="./images/logo_7.png" alt="rixos" width="146px">
-<img src="./images/logo_8.png" alt="indposhiv" width="129px">
-<img src="./images/logo_9.png" alt="marie claire" width="169px">
-<img src="./images/logo_10.png" alt="divoche.media" width="200px">
-<img src="./images/logo_11.png" alt="bouquet" width="139px">
+<img src="./images/logo_1.png" alt="rescue now" width="116">
+<img src="./images/logo_2.png" alt="cp" width="69">
+<img src="./images/logo_3.png" alt="jager music awards" width="110">
+<img src="./images/logo_4.png" alt="embroidered gem" width="186">
+<img src="./images/logo_5.png" alt="kyiv design week" width="71">
+<img src="./images/logo_6.png" alt="i have no idea" width="101">
+<img src="./images/logo_7.png" alt="rixos" width="146">
+<img src="./images/logo_8.png" alt="indposhiv" width="129">
+<img src="./images/logo_9.png" alt="marie claire" width="169">
+<img src="./images/logo_10.png" alt="divoche.media" width="200">
+<img src="./images/logo_11.png" alt="bouquet" width="139">
 </section>
 <!-- spec project section -->
- <section>
-    <h2>Спец проєкт на Франка</h2>
-    <p>Подкаст «На Франка» — дискусії про піар та комунікацію в контексті культури, моди, світського та соціального життя. Ведуча Альона Лапенко, засновниця агенції, запрошує підприємців й експертів з різним досвідом, аби знання можна було не лише придбати, а й перейняти. 
+ <section class="container">
+    <h2 class="accent-text-color">Спец проєкт на Франка</h2>
+    <p class="accent-text-color">Подкаст «На Франка» — дискусії про піар та комунікацію в контексті культури, моди, світського та соціального життя. Ведуча Альона Лапенко, засновниця агенції, запрошує підприємців й експертів з різним досвідом, аби знання можна було не лише придбати, а й перейняти. 
 
         У своїй роботі Альона часто зустрічається із тим, що бізнес не завжди розуміє як і чому користуватись піаром, а колеги, журналісти та менеджери, як правильно будувати стосунки в межах проєктів. Тут щиро про рутину, злети та падіння. 
     </p>
@@ -115,17 +119,17 @@
     <h2 id="our_team_section">Команда</h2>
     <ul>
         <li>
-            <img src="./images/team_member_1.png" alt="Альона Лапенко" width="183px">
+            <img src="./images/team_member_1.png" alt="Альона Лапенко" width="183">
             <h3>Альона Лапенко</h3>
-        <p>Посада</p>
+        <p>CEO</p>
     </li>
-        <li>     <img src="./images/team_member_1.png" alt="Анна"width="183px"width="183px">
+        <li>     <img src="./images/team_member_anna.png" alt="Анна"width="183">
             <h3>Анна</h3>
         <p>Посада</p></li>
-        <li>     <img src="./images/team_member_1.png" alt="Анастасія Левицька" width="183px">
+        <li>     <img src="./images/team_member_1.png" alt="Анастасія Левицька" width="183">
             <h3>Анастасія Левицька</h3>
         <p>Посада</p></li>
-        <li>     <img src="./images/team_member_1.png" alt="Анджела" width="183px">
+        <li>     <img src="./images/team_member_1.png" alt="Анджела" width="183">
             <h3>Анджела</h3>
         <p>Посада</p></li>
     </ul>
@@ -151,7 +155,7 @@
         <address>
             <ul>
             <li><a href="mailto:hello.eter.agency@gmail.com ">hello.eter.agency@gmail.com </a></li>
-            <li><a href="tel:+380 731 414 710">+380 731 414 710</a></li>
+            <li><a href="tel:+380731414710">+380 731 414 710</a></li>
         </ul>
         </address>
         <ul>
@@ -161,7 +165,7 @@
             <li><a href="">facebook</a></li>
         </ul>
         <p>ETÈR agency
-            2022— 2024 ©</p>
+            2022— 2024 &copy;</p>
     </footer>
 </body>
 </html>
