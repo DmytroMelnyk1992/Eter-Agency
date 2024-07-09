@@ -15,8 +15,8 @@ body {
 }
 
 a {
-  font-family: inherit; /* Використовувати той же шрифт, що й у батьківського елементу */
-  text-decoration: none; /* Прибирає підкреслення */
+  font-family: inherit; 
+  text-decoration: none; 
 }
 h2{
     font-size: 20px;
@@ -24,19 +24,19 @@ h2{
 p{
     color: #0447C3;
     line-height: 21px;
-    margin: 23px;
     font-size: 14px;
     font-weight: normal;
 }
 
 ul, ol {
-    margin: 0; /* Видаляє відступи з обох боків списку */
-    padding: 0; /* Видаляє внутрішні відступи */
-    list-style: none; /* Видаляє маркери списку */
+    margin: 0;
+    padding: 0; 
+    list-style: none; 
   }
   
   li {
     margin: 0; 
+    list-style: none;
 
   }
 
@@ -56,12 +56,7 @@ ul, ol {
 }
 
 .container{
-background: #0447C3;
-}
-
-.container-grey{
-    background-color: #ECECEC;
-    margin:23px;
+margin: 0 20px;
 }
 
 .main-logo{
@@ -75,14 +70,12 @@ background: #0447C3;
     cursor: pointer;
 }
 .crop-container {
-    width: 430px;  /* Ширина контейнера */
-    height: 346px; /* Висота контейнера */
-    overflow: hidden; /* Приховуємо частину зображення, яка виходить за межі контейнера */
-    position: relative;
-    clip-path: inset(0); /* Обрізаємо зображення */
+    width: 100%;
+  max-width: 430px;
+  height: auto;
   }
 
-  /* margin 23 px */
+  
   .hero-style{
     margin-left: 23px;
     font-style: italic;
@@ -112,10 +105,22 @@ background: #0447C3;
     background-color: #0447C3 /* Колір лінії */
   }
 
-  .box{
-    padding:  23px;
+
+
+  .box-grey{
+    padding: 23px;
     background-color: #ECECEC;
   }
+  .box-white{
+    padding-left: 23px;
+  }
+  .box-blue{
+    background: #0447C3;
+  }
+  .box-green{
+    background: #B3CE43;
+  }
+  
 
   .lined-style{
     position: relative;
