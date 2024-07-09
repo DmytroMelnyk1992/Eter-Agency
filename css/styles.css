@@ -21,6 +21,10 @@ a {
 h2{
     font-size: 20px;
 }
+
+h3{
+    color: #0447C3;
+}
 p{
     color: #0447C3;
     line-height: 21px;
@@ -40,6 +44,11 @@ ul, ol {
 
   }
 
+  img{
+    display: block;
+    max-width: 100%;
+  }
+
   header {
     background-color: #0447C3;
     padding: 10px;
@@ -47,6 +56,7 @@ ul, ol {
     justify-content: center;
     align-items: center;
   }
+
 .italic{
     font-style: italic;
 }
@@ -54,71 +64,64 @@ ul, ol {
 .accent-text-color{
     color: #ffffff;
 }
-
-.container{
-margin: 0 20px;
+.accent-text-color-white{
+    color: #ffffff;
 }
+
+
 
 .main-logo{
     margin:  11px 144px 18px 144px;
 }
 
-.button-is-open{
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-}
+
 .crop-container {
-    width: 100%;
-  max-width: 430px;
+width: 100%;
+  max-width: 767px;
   height: auto;
   }
 
   
-  .hero-style{
-    margin-left: 23px;
+.hero-style{
     font-style: italic;
     text-transform: uppercase;
     font-weight: 400;
     color: #0447C3;
 }
+
 .lined-heading {
-    position: relative; /* Для позиціонування псевдоелемента відносно заголовка */
-    margin-left: 23px; 
+    position: relative; 
+   
     padding-left: 194px;
     text-transform: uppercase;
     font-weight: 500;
-    margin-top: 40px;
     color: #0447C3;
-
   }
   
   .lined-heading::before {
-    content: ""; /* Необхідно для відображення псевдоелемента */
+    content: ""; 
     position: absolute;
     left: 0;
     top: 50%;
-    transform: translateY(-50%); /* Вирівнювання по вертикалі */
-    width: 187px; /* Довжина лінії */
-    height: 3px; /* Товщина лінії */
-    background-color: #0447C3 /* Колір лінії */
+    transform: translateY(-50%); 
+    width: 187px; 
+    height: 3px; 
+    background-color: #0447C3 
   }
 
-
-
   .box-grey{
-    padding: 23px;
+    padding: 10px 20px 10px 20px;
     background-color: #ECECEC;
   }
   .box-white{
-    padding-left: 23px;
+    padding: 10px 20px 10px 20px;
   }
   .box-blue{
     background: #0447C3;
   }
   .box-green{
     background: #B3CE43;
+    padding: 10px 20px 10px 20px;
   }
   
 
@@ -141,4 +144,57 @@ margin: 0 20px;
   height: 3px; /* Товщина лінії */
   background-color: #0447C3; /* Колір лінії */
   transform: translateY(-50%);
+  }
+
+  .lined-style-white{
+    position: relative;
+  color: #ffffff; /* Колір тексту заголовка */
+  font-size: 24px; /* Розмір шрифту */
+  margin: 0 auto;
+  /* padding-left: 150px; */
+  text-align: center;
+  text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .lined-style-white::before{
+    content: "";
+  position: absolute;
+  top: 50%; /* Вирівнюємо по вертикалі відносно тексту */
+  left: 0;
+  width: 92px; /* Довжина лінії */
+  height: 3px; /* Товщина лінії */
+  background-color: #ffffff; /* Колір лінії */
+  transform: translateY(-50%);
+  }
+  
+  .text-stories{
+    font-size: 10px;
+    text-align: right;
+    padding-left: 200px;
+    margin-top: -10px;
+    line-height: 15px;
+    
+  }
+
+  .portfolio-box{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+  }
+  .card-set{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+  
+  .card-set > .item {
+flex-basis: calc(100% / 3 - 20px);
+margin-left: 20px;
+margin-top: 20px;
+justify-content: center;
   }
