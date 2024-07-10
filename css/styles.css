@@ -198,3 +198,29 @@ margin-left: 20px;
 margin-top: 20px;
 justify-content: center;
   }
+
+  .image-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10 px;
+  padding-bottom: 10px;
+  }
+
+  .portfolio-box-for-two{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .card-set-for-two {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+  }
+  .card-set-for-two > .item-for-two {
+    flex-basis: calc(100% / 2 - 20px);
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: center;
+      }
