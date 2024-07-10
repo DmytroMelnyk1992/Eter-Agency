@@ -117,6 +117,7 @@ width: 100%;
     padding: 10px 20px 10px 20px;
   }
   .box-blue{
+    padding: 10px 20px 10px 20px;
     background: #0447C3;
   }
   .box-green{
@@ -127,8 +128,8 @@ width: 100%;
 
   .lined-style{
     position: relative;
-  color: #0447C3; /* Колір тексту заголовка */
-  font-size: 24px; /* Розмір шрифту */
+  color: #0447C3; 
+  font-size: 24px; 
   margin: 0;
   padding-left: 150px;
   text-transform: uppercase;
@@ -138,18 +139,18 @@ width: 100%;
   .lined-style::before{
     content: "";
   position: absolute;
-  top: 50%; /* Вирівнюємо по вертикалі відносно тексту */
+  top: 50%; 
   left: 0;
-  width: 139px; /* Довжина лінії */
-  height: 3px; /* Товщина лінії */
-  background-color: #0447C3; /* Колір лінії */
+  width: 139px; 
+  height: 3px; 
+  background-color: #0447C3; 
   transform: translateY(-50%);
   }
 
   .lined-style-white{
     position: relative;
-  color: #ffffff; /* Колір тексту заголовка */
-  font-size: 24px; /* Розмір шрифту */
+  color: #ffffff; 
+  font-size: 24px; 
   margin: 0 auto;
   /* padding-left: 150px; */
   text-align: center;
@@ -160,11 +161,11 @@ width: 100%;
   .lined-style-white::before{
     content: "";
   position: absolute;
-  top: 50%; /* Вирівнюємо по вертикалі відносно тексту */
+  top: 50%; 
   left: 0;
-  width: 92px; /* Довжина лінії */
-  height: 3px; /* Товщина лінії */
-  background-color: #ffffff; /* Колір лінії */
+  width: 92px; 
+  height: 3px; 
+  background-color: #ffffff; 
   transform: translateY(-50%);
   }
   
@@ -210,6 +211,7 @@ justify-content: center;
   .portfolio-box-for-two{
     margin-left: auto;
     margin-right: auto;
+    
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -217,10 +219,28 @@ justify-content: center;
     display: flex;
     flex-wrap: wrap;
     margin-left: -20px;
+    margin-bottom: 20px;
   }
   .card-set-for-two > .item-for-two {
     flex-basis: calc(100% / 2 - 20px);
     margin-left: 20px;
     margin-top: 20px;
     justify-content: center;
+      }
+
+      .spec-image{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -40px;
+        margin-bottom: -10px;
+        margin-right: -20px;
+      }
+
+      .spec-header{
+        
+        text-decoration: underline;
+        
+       color: #ffffff;
+       font-weight: normal;
+        
       }
