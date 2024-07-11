@@ -16,7 +16,8 @@ body {
 
 a {
   font-family: inherit; 
-  text-decoration: none; 
+  text-decoration: none;
+   
 }
 h2{
     font-size: 20px;
@@ -72,7 +73,9 @@ ul, ol {
 
 
 .main-logo{
-    margin:  11px 144px 18px 144px;
+    /* margin:  11px 144px 18px 144px; */
+
+    margin:  0 auto;
 }
 
 
@@ -91,8 +94,7 @@ width: 100%;
 }
 
 .lined-heading {
-    position: relative; 
-   
+    position: relative;   
     padding-left: 194px;
     text-transform: uppercase;
     font-weight: 500;
@@ -313,4 +315,40 @@ justify-content: center;
         }
         .contact-form button:hover {
             background-color: #004a99;
+        }
+
+        .adress-item{
+            text-transform: uppercase;
+            font-style: normal;
+            text-decoration: none;
+            padding-bottom: 10px;
+            font-size: larger;
+        }
+
+          .soc-media-set{
+            display: flex;
+            margin-top: -40px;
+            margin-left: -20px;
+          }
+          
+          .soc-media-set > .soc-item {
+        flex-basis: calc(100% / 3 - 20px);
+        margin-left: 20px;
+        margin-top: 20px;
+        justify-content: center;
+        text-transform: uppercase;
+            font-style: normal;
+            font-size: larger;
+          }
+
+          .right-aligned-text {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .right-aligned-text p{
+           font-size: 10px;
+            margin-top: -5px;
+            margin-bottom: -5px;
+            font-style: italic;
         }
