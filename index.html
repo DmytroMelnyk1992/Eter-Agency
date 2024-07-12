@@ -12,13 +12,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <main class="main-container">
     <div class="box-blue-for-header">
         <header>
         <a href="">
             <img class="main-logo" src="./images/logo.svg" alt="Eter Agency">
         </a>
     </header></div>
-     <!-- <nav>
+    
+    <aside>
+        <div class="aside-container"></div>
+        <nav>
         <button type="button" сlass="button-is-open">
             <svg width="30" height="30">
                 <use href="./images/hamburger-menu.svg"></use>
@@ -31,18 +35,24 @@
         <li><a href="#our_team_section">команда</a></li>
         <li><a href="#form_section">зв'язок</a></li>
         
-    </ul></nav> -->
-<main>
+    </ul></nav></aside>
+
+    <div class="main-contaiber-second">
     <!-- hero section -->
-     <section>
-        <div class="box-white"><h1 class="hero-style">Комунікаційна Агенція<br>Eter Agency</h1>
-       
-      <h2 id="hero_section" class="lined-heading">Хто ми?</h2>
+     <section class="hero-section">
+        
+        <img src="./images/hero_section_td.jpg" alt="we are" class="hero-image-td">
+        <div class="box-white hero-section-stick-to-top"><h1 class="hero-style">Комунікаційна Агенція<br>Eter Agency</h1>
+       <div class="hero-section-content">
+        <h2 id="hero_section" class="lined-heading">Хто ми?</h2>
 
         <p>Eter Agency — <span class="italic">комунікаційна агенція</span>, яка не просто створює стратегії, а 
          <span class="italic">будує стосунки</span> між брендами та їх аудиторією. Довірте нам свої історії та їдеї, 
-         а ми допоможемо їм бути почутими.</p>
+         а ми допоможемо їм бути почутими.</p></div>
+
+      
 </div>
+
 <img src="./images/hero-image.png" class="crop-container" alt="our team" width="430">     
 </section>
    <!-- what we do section  -->
@@ -223,7 +233,7 @@
     </div>
    
    </section>
-</main>
+
     <footer>
         <div class="box-white">
             <address>
@@ -244,5 +254,7 @@
         <p> 2022— 2024 &copy;</p></div>
         
     </footer>
+</div>
+</main>
 </body>
 </html>
