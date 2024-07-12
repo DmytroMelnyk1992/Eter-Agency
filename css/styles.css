@@ -51,12 +51,31 @@ ul, ol {
     max-width: 100%;
   }
 
+  button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+  }
+
+  .show-menu{
+    display: block !important;
+  }
+
+
   header {
     background-color: #0447C3;
     padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 68px;
+  }
+  .burger-button{
+    display: inline-block;
+    float: left;
   }
 
 .italic{
@@ -340,7 +359,6 @@ justify-content: center;
             font-style: normal;
             font-size: larger;
           }
-
           .right-aligned-text {
             text-align: right;
             margin-bottom: 20px;
@@ -362,11 +380,16 @@ justify-content: center;
             .hero-image-td{
                 display: none;
             }
+            #menu{
+              display: none;
+            }
             }
 
            
 @media screen and (min-width: 768px) {
-
+/* #menu{
+  display: block;
+} */
 .main-container{
     max-width: 1200px;
     display: flex;

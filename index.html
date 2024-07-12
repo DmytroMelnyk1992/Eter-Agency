@@ -15,27 +15,27 @@
     <main class="main-container">
     <div class="box-blue-for-header">
         <header>
-        <a href="">
-            <img class="main-logo" src="./images/logo.svg" alt="Eter Agency">
-        </a>
+            <button type="button" id="hamburger" class="burger-button js-open-menu" onclick="toggleMenu()">
+                <img src="./images/hamburger-menu.svg" width="30" height="30" >
+             </button>
+          <img class="main-logo" src="./images/logo.svg" alt="Eter Agency">
+        
     </header></div>
     
-    <aside>
+    <aside id="menu">
         <div class="aside-container"></div>
         <nav>
-        <button type="button" сlass="button-is-open">
-            <svg width="30" height="30">
-                <use href="./images/hamburger-menu.svg"></use>
-            </svg>
-         </button>
+            <img class="main-logo" src="./images/logo.svg" alt="Eter Agency">
         <ul>
-        <li><a href="#hero_section">хто ми?</a></li>
-        <li><a href="#what_we_do_section">що ми вміємо?</a></li>
-        <li><a href="#for_whom_section">для кого ми?</a></li>
-        <li><a href="#our_team_section">команда</a></li>
-        <li><a href="#form_section">зв'язок</a></li>
+        <li clas><a href="#hero_section" class="link">хто ми?</a></li>
+        <li><a href="#what_we_do_section" class="link">що ми вміємо?</a></li>
+        <li><a href="#for_whom_section" class="link">для кого ми?</a></li>
+        <li><a href="#our_team_section" class="link">команда</a></li>
+        <li><a href="#form_section" class="link">зв'язок</a></li>
         
-    </ul></nav></aside>
+    </ul></nav>
+
+</aside>
 
     <div class="main-contaiber-second">
     <!-- hero section -->
@@ -256,5 +256,7 @@
     </footer>
 </div>
 </main>
+<script src="./js/mobile-menu.js"></script>
 </body>
+
 </html>
