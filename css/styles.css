@@ -134,7 +134,7 @@ height: auto;
     background-color: #0447C3 
   } */
 
-  .box-grey{
+  /* .box-grey{
     padding: 10px 20px 10px 20px;
     background-color: #ECECEC;
   }
@@ -152,7 +152,7 @@ height: auto;
   .box-green{
     background: #B3CE43;
     padding: 10px 20px 10px 20px;
-  }
+  } */
   
 
   .lined-style{
@@ -172,6 +172,7 @@ height: auto;
   margin: 0;
   text-transform: uppercase;
     font-weight: 500;
+    padding-left: 10px;
   }
 
   
@@ -370,7 +371,7 @@ justify-content: center;
         margin-right: 20px;
         }
 
-        .horizontal-line-white{
+        /* .horizontal-line-white{
           
           background-color: #ffffff;
           width: 20%;
@@ -378,7 +379,7 @@ justify-content: center;
           height: 3px;
           line-height: 0px;
           margin-right: 20px;
-          }
+          } */
        
    @media screen and (max-width: 767px) {
             aside {
@@ -423,8 +424,6 @@ justify-content: center;
   color: #ffffff;
   padding: 10px;
 }
-  }   
-
 
   .lined-heading {
     position: relative;   
@@ -445,7 +444,37 @@ justify-content: center;
     background-color: #0447C3 
   }
 
+  .horizontal-line-white{
+          
+    background-color: #ffffff;
+    width: 20%;
+    max-width: 139px;
+    height: 3px;
+    line-height: 0px;
+    margin-right: 20px;
+    }
+
+    .box-grey{
+      padding: 10px 20px 10px 20px;
+      background-color: #ECECEC;
+    }
+    .box-white{
+      padding: 10px 20px 10px 20px;
+    }
+    .box-blue{
+      padding: 10px 20px 10px 20px;
+      background: #0447C3;
+    }
   
+    .box-blue-for-header{
+      background: #0447C3;
+    }
+    .box-green{
+      background: #B3CE43;
+      padding: 10px 20px 10px 20px;
+    }
+  
+   }
   /* -----------DESKTOP------------------ */
            
 @media screen and (min-width: 768px) {
@@ -529,17 +558,36 @@ left: 0;
 width: 100%;
 margin-top: 30px;
 bottom: 0px;
-margin-bottom: 5%;
+margin-bottom: 2%;
 }
 
+
+
+/* .horizontal-line{
+          
+  background-color: #004a99;
+  width: 20%;
+  max-width: 139px;
+  height: 3px;
+  line-height: 0px;
+  margin-right: 20px;
+  } */
+
+  .horizontal-line-white{
+    
+    background-color: #ffffff;
+    width: 10%;
+    height: 3px;
+    line-height: 0px;
+   
+    }
 .hero-text-for-desk{
-  margin-left: 119px;
+  margin-left: 10%;
   font-size: 1vw;
   color:#ffffff;
-  max-width: 350px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   max-width: 35%;
+  padding-left: 10px;
   line-height: normal;
   
 }
