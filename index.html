@@ -13,28 +13,29 @@
 </head>
 <body>
     <main class="main-container">
+        <div class="navbar">
     <div class="box-blue-for-header">
         <header>
             <button type="button" id="hamburger" class="burger-button js-open-menu" onclick="toggleMenu()">
                 <img src="./images/hamburger-menu.svg" width="30" height="30" >
+                <img class="is-hidden" src="./images/cross.svg" alt="close" width="30" height="30">
              </button>
           <img class="main-logo" src="./images/logo.svg" alt="Eter Agency">
-        
     </header></div>
     
-    <aside id="menu">
-        <div class="aside-container"></div>
-        <nav>
-            <img class="main-logo" src="./images/logo.svg" alt="Eter Agency">
-        <ul>
-        <li clas><a href="#hero_section" class="link">хто ми?</a></li>
-        <li><a href="#what_we_do_section" class="link">що ми вміємо?</a></li>
-        <li><a href="#for_whom_section" class="link">для кого ми?</a></li>
-        <li><a href="#our_team_section" class="link">команда</a></li>
-        <li><a href="#form_section" class="link">зв'язок</a></li>
+    <aside id="menu" class="opened-burger">
+        <div class="aside-container"><nav>
+            <img class="main-logo-desktop" src="./images/logo.svg" alt="Eter Agency">
+        <ul class="navbar-box">
+        <li class="link"><a href="#hero_section" class="link">хто ми?</a></li>
+        <li class="link"><a href="#what_we_do_section" class="link">що ми вміємо?</a></li>
+        <li class="link"><a href="#for_whom_section" class="link">для кого ми?</a></li>
+        <li class="link"><a href="#our_team_section" class="link">команда</a></li>
+        <li class="link"><a href="#form_section" class="link">зв'язок</a></li>
         
-    </ul></nav>
-
+    </ul></nav></div>
+        
+</div>
 </aside>
 
     <div class="main-contaiber-second">

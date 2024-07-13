@@ -4,9 +4,9 @@ function toggleMenu() {
   menu.classList.toggle('show-menu');
 
   if (menu.classList.contains('show-menu')) {
-      hamburger.innerHTML = '<img src="./images/logo.svg" width="30" height="30" >';
+      hamburger.innerHTML = '<img src="./images/cross.svg" width="30" height="30">';
   } else {
-      hamburger.innerHTML = '<img src="./images/hamburger-menu.svg" width="30" height="30" >';
+      hamburger.innerHTML = '<img src="./images/hamburger-menu.svg" width="30" height="30">';
   }
 }
 document.querySelectorAll('#menu .link').forEach(link => {
