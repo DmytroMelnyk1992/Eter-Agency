@@ -380,7 +380,7 @@ justify-content: center;
           margin-right: 20px;
           }
        
-        @media screen and (max-width: 767px) {
+   @media screen and (max-width: 767px) {
             aside {
               display: none;
             }
@@ -423,8 +423,10 @@ justify-content: center;
   color: #ffffff;
   padding: 10px;
 }
-  }
+  }   
 
+  
+  /* -----------DESKTOP------------------ */
            
 @media screen and (min-width: 768px) {
 #menu{
@@ -439,25 +441,36 @@ justify-content: center;
     display: flex;
     flex-direction: row;
 }
-    .main-contaiber-second{
+    .main-container-second{
         margin-left: 20px;
     }
 
 
-    nav{
+    .aside-container{
       position: fixed;
+      margin-left: 30px;
     }
      aside {
       padding-top: 20px;
         display: block;
         width: 206px;
         height: 100%;
-        background-color: #004a99;
+        background-color: #0447C3;
         z-index: 2000;
         left: 0;
         right: 0;
-       
                 }
+.navbar-box{
+  margin-top: 200px;
+}
+    .link{
+      color: #ffffff;
+      margin-top: 20px;
+    }
+   
+    link:hower{
+      text-decoration: underline;
+    }
      
     .box-blue-for-header{
       display: none;
@@ -475,7 +488,7 @@ justify-content: center;
 }
 
 .hero-image-td   {
-    position: relative;
+position: relative;
 width: 100%;
 height: auto;
 }        
@@ -485,7 +498,66 @@ height: auto;
     top: 0;
     left: 0;
 }
+
+.hero-section-stick-to-bottom{
+  position: absolute;
+ 
+  left: 0;
+  height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    /* max-width: 400px; */
+}
+/* .hero-section-content {max-width: 400px;
+} */
+
+.hero-text-for-desk{
+  margin-left: 40px;
+  font-size: 14px;
+  color:#ffffff;
+  max-width: 350px;
+  margin-top: -15px;
+  
+}
+.hero-style{
+  color: #ffffff;
+}
+
+.lined-heading{
+  color: #ffffff;
+}
+.lined-heading::before{
+  background-color: #fff;
+}
+.what-we-do-desktop{
+  display: flex;
+  flex-direction: row;
+  background-color: #ECECEC;
+}
+
+.what-we-do-desktop-first-box{
+  display: block;
+  width: 50%;
+  margin-left: 20px;
+}
+
+.what-we-do-desktop-second-box{
+  display: block;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
 }   
+
 
 
 
