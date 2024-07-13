@@ -155,14 +155,14 @@ height: auto;
   } */
   
 
-  .lined-style{
+  /* .lined-style{
   
   color: #0447C3; 
   font-size: 24px; 
   margin: 0;
   text-transform: uppercase;
     font-weight: 500;
-  }
+  } */
 
 
 
@@ -361,7 +361,7 @@ justify-content: center;
        
        
 
-         .horizontal-line{
+         /* .horizontal-line{
           
         background-color: #004a99;
         width: 20%;
@@ -369,7 +369,7 @@ justify-content: center;
         height: 3px;
         line-height: 0px;
         margin-right: 20px;
-        }
+        } */
 
         /* .horizontal-line-white{
           
@@ -444,6 +444,16 @@ justify-content: center;
     background-color: #0447C3 
   }
 
+  .horizontal-line{
+          
+    background-color: #004a99;
+    width: 20%;
+    max-width: 139px;
+    height: 3px;
+    line-height: 0px;
+    margin-right: 20px;
+    }
+
   .horizontal-line-white{
           
     background-color: #ffffff;
@@ -453,6 +463,14 @@ justify-content: center;
     line-height: 0px;
     margin-right: 20px;
     }
+    .lined-style{
+  
+      color: #0447C3; 
+      font-size: 24px; 
+      margin: 0;
+      text-transform: uppercase;
+        font-weight: 500;
+      }
 
     .box-grey{
       padding: 10px 20px 10px 20px;
@@ -563,15 +581,14 @@ margin-bottom: 2%;
 
 
 
-/* .horizontal-line{
+.horizontal-line{
           
   background-color: #004a99;
-  width: 20%;
-  max-width: 139px;
+  width: 10%;
   height: 3px;
   line-height: 0px;
-  margin-right: 20px;
-  } */
+  
+  }
 
   .horizontal-line-white{
     
@@ -607,20 +624,36 @@ margin-bottom: 2%;
   width: 109px;
 }
 
+.lined-style{
+  
+  color: #0447C3; 
+  font-size: 24px; 
+  padding-left: 10px;
+  margin: 0;
+  text-transform: uppercase;
+    font-weight: 500;
+  }
+
 .box-grey{
   padding: 20px 10px 10px 0px;
+  background-color: #ECECEC;
+}
+
+.box-white{
+  padding: 20px 10px 10px 0px;
+  
 }
 .what-we-do-desktop{
   display: flex;
   flex-direction: row;
   background-color: #ECECEC;
-  /* padding: 10px; */
+  
 }
 
 .what-we-do-desktop-first-box{
   display: block;
   width: 50%;
-  margin-left: 20px;
+  margin-left: calc(10% + 10px);
 }
 
 .what-we-do-desktop-second-box{
