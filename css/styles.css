@@ -156,57 +156,29 @@ height: auto;
   
 
   .lined-style{
-  position: relative;
+  
   color: #0447C3; 
   font-size: 24px; 
   margin: 0;
-  padding-left: 150px;
   text-transform: uppercase;
     font-weight: 500;
   }
 
-  .lined-style::before{
-    content: "";
-    position: absolute;
-    top: 50%; 
-    left: 0;
-    width: 139px; 
-    height: 3px; 
-    background-color: #0447C3; 
-    transform: translateY(-50%);
-  }
+
 
   .lined-style-white{
-    position: relative;
     color: #ffffff; 
-    font-size: 24px; 
-    margin: 0 auto;
-    padding-left: 150px;
-    text-align: center;
-   text-transform: uppercase;
+  font-size: 24px; 
+  margin: 0;
+  text-transform: uppercase;
     font-weight: 500;
   }
 
-  .lined-style-white::before{
-    content: "";
-    position: absolute;
-    top: 50%; 
-    left: 0;
-  width: 92px; 
-  height: 3px; 
-  background-color: #ffffff; 
-  transform: translateY(-50%);
-  }
   
   .text-stories{
-    font-size: 10px;
-    text-align: right;
-    padding-left: 200px;
-    margin-top: -10px;
-    line-height: 15px;
-    
+    margin-bottom: -30px;
+    padding-left: 10px;
   }
-
   .portfolio-box{
     margin-left: auto;
     margin-right: auto;
@@ -269,6 +241,7 @@ justify-content: center;
     text-decoration: underline;
      color: #ffffff;
     font-weight: normal;
+    margin-right: 10px;
         }
 
         .team-set{
@@ -374,7 +347,39 @@ justify-content: center;
             font-style: italic;
         }
 
-        
+        .box-for-line{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
+        }
+      
+       .margin-20px{
+        margin-bottom: 20px;
+       }
+       
+       
+
+         .horizontal-line{
+          
+        background-color: #004a99;
+        width: 20%;
+        max-width: 139px;
+        height: 3px;
+        line-height: 0px;
+        margin-right: 20px;
+        }
+
+        .horizontal-line-white{
+          
+          background-color: #ffffff;
+          width: 20%;
+          max-width: 139px;
+          height: 3px;
+          line-height: 0px;
+          margin-right: 20px;
+          }
+       
         @media screen and (max-width: 767px) {
             aside {
               display: none;
@@ -426,7 +431,9 @@ justify-content: center;
   display: block;
 }
 
-
+.main-logo-desktop{
+  margin: 0 auto;
+}
 .main-container{
     max-width: 1200px;
     display: flex;
@@ -436,17 +443,22 @@ justify-content: center;
         margin-left: 20px;
     }
 
+
+    nav{
+      position: fixed;
+    }
      aside {
+      padding-top: 20px;
         display: block;
         width: 206px;
         height: 100%;
         background-color: #004a99;
+        z-index: 2000;
+        left: 0;
+        right: 0;
+       
                 }
-     .aside-container {
-                    width: 223px;
-                    height: 100%;
-                }
-
+     
     .box-blue-for-header{
       display: none;
                 }
@@ -474,4 +486,23 @@ height: auto;
     left: 0;
 }
 }   
+
+
+
+
+/* envelope */
+
+#floating-envelope {
+  position: fixed;
+  width: 100px;
+  height: 76px;
+  z-index: 1000;
+  top: -100px;
+  height: -100px;
+}
+
+#floating-envelope img {
+  width: 100%;
+  height: 100%;
+}
 
