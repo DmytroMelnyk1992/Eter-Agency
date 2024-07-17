@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  span.note {
+    display: none !important;
+  }
+  #contact-us .box-for-line {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1620px) {
+  .two-lined-text {
+    margin-top: -4% !important;
+  }
+}
