@@ -82,6 +82,7 @@ header {
 }
 .main-logo{
   margin: 0 auto;
+    padding-right: 30px;
 }
 .crop-container {
   width: 100%;
