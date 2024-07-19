@@ -37,6 +37,9 @@
         height: 60px;
         scroll-behavior: smooth;
    }
+
+
+   
     .navbar-box{
         margin: 10px;
    }
@@ -84,14 +87,15 @@
         padding-left: 15px;
    }
     .box-grey{
-        padding: 10px 20px 10px 20px;
+        padding: 20px 20px 10px 20px;
         background-color: #ECECEC;
    }
     .box-white{
         padding: 10px 20px 10px 20px;
+        margin-top: 10px;
    }
     .box-blue{
-        padding: 10px 20px 10px 20px;
+        padding: 20px 20px 10px 20px;
         background: #0447C3;
    }
     .box-blue-for-header{
@@ -121,14 +125,14 @@
         margin-bottom: -5px;
    }
     .portfolio-box{
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 20px;
+        margin-right: 20px;
         padding-left: 10px;
         padding-right: 10px;
    }
     .portfolio-box-for-two{
-        margin-left: auto;
-        margin-right: auto;
+       margin-left: 20px;
+        margin-right: 20px;
         padding-left: 10px;
         padding-right: 10px;
    }
@@ -156,6 +160,7 @@
    }
     .cases-title {
         margin-bottom: 30px;
+        margin-top: 10px;
    }
     .desktop-portfolio-box{
         display: none;
