@@ -82,7 +82,7 @@ header {
 }
 .main-logo{
   margin: 0 auto;
-    padding-right: 30px;
+  padding-right: 30px;
 }
 .crop-container {
   width: 100%;
@@ -220,14 +220,7 @@ header {
   margin-top: -10px;
   margin-bottom: 20px;
 }
-.contact-form input[type="text"], .contact-form input[type="email"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  font-size: 16px;
-}
+
 .contact-form button {
   width: 100%;
   padding: 10px;

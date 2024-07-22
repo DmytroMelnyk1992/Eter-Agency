@@ -5,6 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eter Agency</title>
+ 
+  <meta property="og:title" content="Eter Agency">
+  <meta property="og:description" content="Eter Agency — комунікаційна агенція, яка не просто створює стратегії, а будує стосунки між брендами та їх аудиторією.">
+  <meta property="og:url" content="https://eter.agency/">
+  <meta property="og:site_name" content="eter.agency">
+  <meta property="og:image" content="https://eter.agency/og_image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
   <link rel="shortcut icon" type="image/x-icon" href="images/logo.svg" />
@@ -374,13 +385,20 @@
           <div class="box-green">
 
             <div class="contact-form">
-              <form>
-                <input type="text" placeholder="Ім'я" required>
-                <input type="text" placeholder="Організація/бренд" required>
-                <input type="text" placeholder="Питання" required>
-                <input type="email" placeholder="Пошта" required>
-                <input type="text" placeholder="Номер телефону" required>
+              <form method="POST" id="form">
+
+                <input type="hidden" name="access_key" value="c41b8b0f-05f2-4dd6-b521-f3ad6e8b0264">
+                <input type="hidden" name="subject" value="Новий контакт з eter.agency">
+                <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+
+                <input type="text" name="name" placeholder="Ім'я" required>
+                <input type="text" name="company" placeholder="Організація/бренд" required>
+                <input type="text" name="question" placeholder="Питання" required>
+                <input type="email" name="email" placeholder="Пошта" required>
+                <input type="text" name="phone" placeholder="Номер телефону" required>
                 <button type="submit">написати</button>
+                <div id="result"></div>
               </form>
             </div>
           </div>
@@ -410,6 +428,7 @@
 
   <script src="./js/mobile-menu.js"></script>
   <script src="./js/envelope.js"></script>
+  <script src="./js/form.js"></script>
 </body>
 
 </html>
